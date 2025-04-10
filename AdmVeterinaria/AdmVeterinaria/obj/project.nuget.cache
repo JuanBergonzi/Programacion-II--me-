@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pKcUO+QUxDU=",
+  "dgSpecHash": "2x9HpwE3g7g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\OneDrive\\Documentos\\GitHub\\Programacion-2\\AdmVeterinaria\\AdmVeterinaria\\AdmVeterinaria.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II\\AdmVeterinaria\\AdmVeterinaria\\AdmVeterinaria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\google.protobuf\\3.30.2\\google.protobuf.3.30.2.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

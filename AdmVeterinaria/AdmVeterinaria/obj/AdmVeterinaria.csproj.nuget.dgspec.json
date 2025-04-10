@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\OneDrive\\Documentos\\GitHub\\Programacion-2\\AdmVeterinaria\\AdmVeterinaria\\AdmVeterinaria.csproj": {}
+    "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II\\AdmVeterinaria\\AdmVeterinaria\\AdmVeterinaria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\OneDrive\\Documentos\\GitHub\\Programacion-2\\AdmVeterinaria\\AdmVeterinaria\\AdmVeterinaria.csproj": {
+    "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II\\AdmVeterinaria\\AdmVeterinaria\\AdmVeterinaria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Documentos\\GitHub\\Programacion-2\\AdmVeterinaria\\AdmVeterinaria\\AdmVeterinaria.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II\\AdmVeterinaria\\AdmVeterinaria\\AdmVeterinaria.csproj",
         "projectName": "AdmVeterinaria",
-        "projectPath": "C:\\Users\\HP\\OneDrive\\Documentos\\GitHub\\Programacion-2\\AdmVeterinaria\\AdmVeterinaria\\AdmVeterinaria.csproj",
+        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II\\AdmVeterinaria\\AdmVeterinaria\\AdmVeterinaria.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\OneDrive\\Documentos\\GitHub\\Programacion-2\\AdmVeterinaria\\AdmVeterinaria\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II\\AdmVeterinaria\\AdmVeterinaria\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
