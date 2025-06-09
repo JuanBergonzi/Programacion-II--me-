@@ -74,16 +74,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="Connected Services\ServiceReference1\WebService1.wsdl" />
-    <None Include="Connected Services\ServiceReference1\WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoResponse.datasource">
+    <None Include="Connected Services\ServiceReference1\WindowsFormsApp1.ServiceReference1.DividirNResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Connected Services\ServiceReference1\WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\ServiceReference1\WindowsFormsApp1.ServiceReference1.ObtenerListaDocResponse.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Connected Services\ServiceReference1\WindowsFormsApp1.ServiceReference1.TipoDoc.datasource">
+    <None Include="Connected Services\ServiceReference1\WindowsFormsApp1.ServiceReference1.HolaSaludameResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">

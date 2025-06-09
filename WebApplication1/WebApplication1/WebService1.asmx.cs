@@ -4,8 +4,6 @@ using System.Linq;
 using System.Timers;
 using System.Web;
 using System.Web.Services;
-using Clasess;
-
 
 namespace WebApplication1
 {
@@ -21,27 +19,20 @@ namespace WebApplication1
     {
 
         [WebMethod]
-        public string CrearTipoDocumento(TipoDoc TiposDoc)
+        public string HolaSaludame()
         {
-            TipoDoc.CrearTipoDoc(TiposDoc);
-            return "OK";
+            return "Hola a todos, como estan?";
         }
 
+        
         [WebMethod]
-        public string EliminarTipoDocumento(string Codigo)
+        public string DividirN(int Nro)
         {
-            TipoDoc.EliminarTipoDoc(Codigo);
-            return "OK";
+            while (Nro > 1 && Nro % 2 == 0)
+            {
+              Nro = Nro / 2;
+            }
+            return "El nro final divido por 2 es: " + Nro;
         }
-
-
-        [WebMethod]
-        public List<TipoDoc> ObtenerListaDoc()
-        {
-            return TipoDoc.listita_modelo;
-        }
-
-
-
     }
 }

@@ -9,461 +9,40 @@
 //------------------------------------------------------------------------------
 
 namespace WindowsFormsApp1.ServiceReference1 {
-    using System.Runtime.Serialization;
-    using System;
     
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="TipoDoc", Namespace="http://tempuri.org/")]
-    [System.SerializableAttribute()]
-    public partial class TipoDoc : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        private int IdTipoDocField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string CodigoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DescripcionField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private WindowsFormsApp1.ServiceReference1.Cliente[] clientesField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
-        public int IdTipoDoc {
-            get {
-                return this.IdTipoDocField;
-            }
-            set {
-                if ((this.IdTipoDocField.Equals(value) != true)) {
-                    this.IdTipoDocField = value;
-                    this.RaisePropertyChanged("IdTipoDoc");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=1)]
-        public string Codigo {
-            get {
-                return this.CodigoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.CodigoField, value) != true)) {
-                    this.CodigoField = value;
-                    this.RaisePropertyChanged("Codigo");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=2)]
-        public string Descripcion {
-            get {
-                return this.DescripcionField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DescripcionField, value) != true)) {
-                    this.DescripcionField = value;
-                    this.RaisePropertyChanged("Descripcion");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=3)]
-        public WindowsFormsApp1.ServiceReference1.Cliente[] clientes {
-            get {
-                return this.clientesField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.clientesField, value) != true)) {
-                    this.clientesField = value;
-                    this.RaisePropertyChanged("clientes");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Cliente", Namespace="http://tempuri.org/")]
-    [System.SerializableAttribute()]
-    public partial class Cliente : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        private int DNIField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NombreField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string ApellidoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private WindowsFormsApp1.ServiceReference1.TipoDoc DocField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private WindowsFormsApp1.ServiceReference1.CondImpos CondicionField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
-        public int DNI {
-            get {
-                return this.DNIField;
-            }
-            set {
-                if ((this.DNIField.Equals(value) != true)) {
-                    this.DNIField = value;
-                    this.RaisePropertyChanged("DNI");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false)]
-        public string Nombre {
-            get {
-                return this.NombreField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.NombreField, value) != true)) {
-                    this.NombreField = value;
-                    this.RaisePropertyChanged("Nombre");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=2)]
-        public string Apellido {
-            get {
-                return this.ApellidoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.ApellidoField, value) != true)) {
-                    this.ApellidoField = value;
-                    this.RaisePropertyChanged("Apellido");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=3)]
-        public WindowsFormsApp1.ServiceReference1.TipoDoc Doc {
-            get {
-                return this.DocField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DocField, value) != true)) {
-                    this.DocField = value;
-                    this.RaisePropertyChanged("Doc");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=4)]
-        public WindowsFormsApp1.ServiceReference1.CondImpos Condicion {
-            get {
-                return this.CondicionField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.CondicionField, value) != true)) {
-                    this.CondicionField = value;
-                    this.RaisePropertyChanged("Condicion");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="CondImpos", Namespace="http://tempuri.org/")]
-    [System.SerializableAttribute()]
-    public partial class CondImpos : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        private int IdCondicionField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DescripcionField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private WindowsFormsApp1.ServiceReference1.Cliente[] clientesField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(IsRequired=true)]
-        public int IdCondicion {
-            get {
-                return this.IdCondicionField;
-            }
-            set {
-                if ((this.IdCondicionField.Equals(value) != true)) {
-                    this.IdCondicionField = value;
-                    this.RaisePropertyChanged("IdCondicion");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=1)]
-        public string Descripcion {
-            get {
-                return this.DescripcionField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DescripcionField, value) != true)) {
-                    this.DescripcionField = value;
-                    this.RaisePropertyChanged("Descripcion");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=2)]
-        public WindowsFormsApp1.ServiceReference1.Cliente[] clientes {
-            get {
-                return this.clientesField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.clientesField, value) != true)) {
-                    this.clientesField = value;
-                    this.RaisePropertyChanged("clientes");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.WebService1Soap")]
     public interface WebService1Soap {
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento TiposDoc del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CrearTipoDocumento", ReplyAction="*")]
-        WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoResponse CrearTipoDocumento(WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoRequest request);
+        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento HolaSaludameResult del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/HolaSaludame", ReplyAction="*")]
+        WindowsFormsApp1.ServiceReference1.HolaSaludameResponse HolaSaludame(WindowsFormsApp1.ServiceReference1.HolaSaludameRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/CrearTipoDocumento", ReplyAction="*")]
-        System.Threading.Tasks.Task<WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoResponse> CrearTipoDocumentoAsync(WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoRequest request);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/HolaSaludame", ReplyAction="*")]
+        System.Threading.Tasks.Task<WindowsFormsApp1.ServiceReference1.HolaSaludameResponse> HolaSaludameAsync(WindowsFormsApp1.ServiceReference1.HolaSaludameRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento Codigo del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/EliminarTipoDocumento", ReplyAction="*")]
-        WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoResponse EliminarTipoDocumento(WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoRequest request);
+        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento DividirNResult del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DividirN", ReplyAction="*")]
+        WindowsFormsApp1.ServiceReference1.DividirNResponse DividirN(WindowsFormsApp1.ServiceReference1.DividirNRequest request);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/EliminarTipoDocumento", ReplyAction="*")]
-        System.Threading.Tasks.Task<WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoResponse> EliminarTipoDocumentoAsync(WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoRequest request);
-        
-        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento ObtenerListaDocResult del espacio de nombres http://tempuri.org/ no está marcado para aceptar valores nil.
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ObtenerListaDoc", ReplyAction="*")]
-        WindowsFormsApp1.ServiceReference1.ObtenerListaDocResponse ObtenerListaDoc(WindowsFormsApp1.ServiceReference1.ObtenerListaDocRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ObtenerListaDoc", ReplyAction="*")]
-        System.Threading.Tasks.Task<WindowsFormsApp1.ServiceReference1.ObtenerListaDocResponse> ObtenerListaDocAsync(WindowsFormsApp1.ServiceReference1.ObtenerListaDocRequest request);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/DividirN", ReplyAction="*")]
+        System.Threading.Tasks.Task<WindowsFormsApp1.ServiceReference1.DividirNResponse> DividirNAsync(WindowsFormsApp1.ServiceReference1.DividirNRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CrearTipoDocumentoRequest {
+    public partial class HolaSaludameRequest {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="CrearTipoDocumento", Namespace="http://tempuri.org/", Order=0)]
-        public WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoRequestBody Body;
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="HolaSaludame", Namespace="http://tempuri.org/", Order=0)]
+        public WindowsFormsApp1.ServiceReference1.HolaSaludameRequestBody Body;
         
-        public CrearTipoDocumentoRequest() {
+        public HolaSaludameRequest() {
         }
         
-        public CrearTipoDocumentoRequest(WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoRequestBody Body) {
-            this.Body = Body;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
-    public partial class CrearTipoDocumentoRequestBody {
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public WindowsFormsApp1.ServiceReference1.TipoDoc TiposDoc;
-        
-        public CrearTipoDocumentoRequestBody() {
-        }
-        
-        public CrearTipoDocumentoRequestBody(WindowsFormsApp1.ServiceReference1.TipoDoc TiposDoc) {
-            this.TiposDoc = TiposDoc;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class CrearTipoDocumentoResponse {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="CrearTipoDocumentoResponse", Namespace="http://tempuri.org/", Order=0)]
-        public WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoResponseBody Body;
-        
-        public CrearTipoDocumentoResponse() {
-        }
-        
-        public CrearTipoDocumentoResponse(WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoResponseBody Body) {
-            this.Body = Body;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
-    public partial class CrearTipoDocumentoResponseBody {
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public string CrearTipoDocumentoResult;
-        
-        public CrearTipoDocumentoResponseBody() {
-        }
-        
-        public CrearTipoDocumentoResponseBody(string CrearTipoDocumentoResult) {
-            this.CrearTipoDocumentoResult = CrearTipoDocumentoResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class EliminarTipoDocumentoRequest {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="EliminarTipoDocumento", Namespace="http://tempuri.org/", Order=0)]
-        public WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoRequestBody Body;
-        
-        public EliminarTipoDocumentoRequest() {
-        }
-        
-        public EliminarTipoDocumentoRequest(WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoRequestBody Body) {
-            this.Body = Body;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
-    public partial class EliminarTipoDocumentoRequestBody {
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public string Codigo;
-        
-        public EliminarTipoDocumentoRequestBody() {
-        }
-        
-        public EliminarTipoDocumentoRequestBody(string Codigo) {
-            this.Codigo = Codigo;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class EliminarTipoDocumentoResponse {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="EliminarTipoDocumentoResponse", Namespace="http://tempuri.org/", Order=0)]
-        public WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoResponseBody Body;
-        
-        public EliminarTipoDocumentoResponse() {
-        }
-        
-        public EliminarTipoDocumentoResponse(WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoResponseBody Body) {
-            this.Body = Body;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
-    public partial class EliminarTipoDocumentoResponseBody {
-        
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public string EliminarTipoDocumentoResult;
-        
-        public EliminarTipoDocumentoResponseBody() {
-        }
-        
-        public EliminarTipoDocumentoResponseBody(string EliminarTipoDocumentoResult) {
-            this.EliminarTipoDocumentoResult = EliminarTipoDocumentoResult;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class ObtenerListaDocRequest {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="ObtenerListaDoc", Namespace="http://tempuri.org/", Order=0)]
-        public WindowsFormsApp1.ServiceReference1.ObtenerListaDocRequestBody Body;
-        
-        public ObtenerListaDocRequest() {
-        }
-        
-        public ObtenerListaDocRequest(WindowsFormsApp1.ServiceReference1.ObtenerListaDocRequestBody Body) {
+        public HolaSaludameRequest(WindowsFormsApp1.ServiceReference1.HolaSaludameRequestBody Body) {
             this.Body = Body;
         }
     }
@@ -472,9 +51,9 @@ namespace WindowsFormsApp1.ServiceReference1 {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute()]
-    public partial class ObtenerListaDocRequestBody {
+    public partial class HolaSaludameRequestBody {
         
-        public ObtenerListaDocRequestBody() {
+        public HolaSaludameRequestBody() {
         }
     }
     
@@ -482,15 +61,15 @@ namespace WindowsFormsApp1.ServiceReference1 {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
-    public partial class ObtenerListaDocResponse {
+    public partial class HolaSaludameResponse {
         
-        [System.ServiceModel.MessageBodyMemberAttribute(Name="ObtenerListaDocResponse", Namespace="http://tempuri.org/", Order=0)]
-        public WindowsFormsApp1.ServiceReference1.ObtenerListaDocResponseBody Body;
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="HolaSaludameResponse", Namespace="http://tempuri.org/", Order=0)]
+        public WindowsFormsApp1.ServiceReference1.HolaSaludameResponseBody Body;
         
-        public ObtenerListaDocResponse() {
+        public HolaSaludameResponse() {
         }
         
-        public ObtenerListaDocResponse(WindowsFormsApp1.ServiceReference1.ObtenerListaDocResponseBody Body) {
+        public HolaSaludameResponse(WindowsFormsApp1.ServiceReference1.HolaSaludameResponseBody Body) {
             this.Body = Body;
         }
     }
@@ -499,16 +78,84 @@ namespace WindowsFormsApp1.ServiceReference1 {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
-    public partial class ObtenerListaDocResponseBody {
+    public partial class HolaSaludameResponseBody {
         
         [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public WindowsFormsApp1.ServiceReference1.TipoDoc[] ObtenerListaDocResult;
+        public string HolaSaludameResult;
         
-        public ObtenerListaDocResponseBody() {
+        public HolaSaludameResponseBody() {
         }
         
-        public ObtenerListaDocResponseBody(WindowsFormsApp1.ServiceReference1.TipoDoc[] ObtenerListaDocResult) {
-            this.ObtenerListaDocResult = ObtenerListaDocResult;
+        public HolaSaludameResponseBody(string HolaSaludameResult) {
+            this.HolaSaludameResult = HolaSaludameResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class DividirNRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="DividirN", Namespace="http://tempuri.org/", Order=0)]
+        public WindowsFormsApp1.ServiceReference1.DividirNRequestBody Body;
+        
+        public DividirNRequest() {
+        }
+        
+        public DividirNRequest(WindowsFormsApp1.ServiceReference1.DividirNRequestBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class DividirNRequestBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
+        public int Nro;
+        
+        public DividirNRequestBody() {
+        }
+        
+        public DividirNRequestBody(int Nro) {
+            this.Nro = Nro;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class DividirNResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="DividirNResponse", Namespace="http://tempuri.org/", Order=0)]
+        public WindowsFormsApp1.ServiceReference1.DividirNResponseBody Body;
+        
+        public DividirNResponse() {
+        }
+        
+        public DividirNResponse(WindowsFormsApp1.ServiceReference1.DividirNResponseBody Body) {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class DividirNResponseBody {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public string DividirNResult;
+        
+        public DividirNResponseBody() {
+        }
+        
+        public DividirNResponseBody(string DividirNResult) {
+            this.DividirNResult = DividirNResult;
         }
     }
     
@@ -540,76 +187,51 @@ namespace WindowsFormsApp1.ServiceReference1 {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoResponse WindowsFormsApp1.ServiceReference1.WebService1Soap.CrearTipoDocumento(WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoRequest request) {
-            return base.Channel.CrearTipoDocumento(request);
+        WindowsFormsApp1.ServiceReference1.HolaSaludameResponse WindowsFormsApp1.ServiceReference1.WebService1Soap.HolaSaludame(WindowsFormsApp1.ServiceReference1.HolaSaludameRequest request) {
+            return base.Channel.HolaSaludame(request);
         }
         
-        public string CrearTipoDocumento(WindowsFormsApp1.ServiceReference1.TipoDoc TiposDoc) {
-            WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoRequest inValue = new WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoRequest();
-            inValue.Body = new WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoRequestBody();
-            inValue.Body.TiposDoc = TiposDoc;
-            WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoResponse retVal = ((WindowsFormsApp1.ServiceReference1.WebService1Soap)(this)).CrearTipoDocumento(inValue);
-            return retVal.Body.CrearTipoDocumentoResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoResponse> WindowsFormsApp1.ServiceReference1.WebService1Soap.CrearTipoDocumentoAsync(WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoRequest request) {
-            return base.Channel.CrearTipoDocumentoAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoResponse> CrearTipoDocumentoAsync(WindowsFormsApp1.ServiceReference1.TipoDoc TiposDoc) {
-            WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoRequest inValue = new WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoRequest();
-            inValue.Body = new WindowsFormsApp1.ServiceReference1.CrearTipoDocumentoRequestBody();
-            inValue.Body.TiposDoc = TiposDoc;
-            return ((WindowsFormsApp1.ServiceReference1.WebService1Soap)(this)).CrearTipoDocumentoAsync(inValue);
+        public string HolaSaludame() {
+            WindowsFormsApp1.ServiceReference1.HolaSaludameRequest inValue = new WindowsFormsApp1.ServiceReference1.HolaSaludameRequest();
+            inValue.Body = new WindowsFormsApp1.ServiceReference1.HolaSaludameRequestBody();
+            WindowsFormsApp1.ServiceReference1.HolaSaludameResponse retVal = ((WindowsFormsApp1.ServiceReference1.WebService1Soap)(this)).HolaSaludame(inValue);
+            return retVal.Body.HolaSaludameResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoResponse WindowsFormsApp1.ServiceReference1.WebService1Soap.EliminarTipoDocumento(WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoRequest request) {
-            return base.Channel.EliminarTipoDocumento(request);
+        System.Threading.Tasks.Task<WindowsFormsApp1.ServiceReference1.HolaSaludameResponse> WindowsFormsApp1.ServiceReference1.WebService1Soap.HolaSaludameAsync(WindowsFormsApp1.ServiceReference1.HolaSaludameRequest request) {
+            return base.Channel.HolaSaludameAsync(request);
         }
         
-        public string EliminarTipoDocumento(string Codigo) {
-            WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoRequest inValue = new WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoRequest();
-            inValue.Body = new WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoRequestBody();
-            inValue.Body.Codigo = Codigo;
-            WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoResponse retVal = ((WindowsFormsApp1.ServiceReference1.WebService1Soap)(this)).EliminarTipoDocumento(inValue);
-            return retVal.Body.EliminarTipoDocumentoResult;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoResponse> WindowsFormsApp1.ServiceReference1.WebService1Soap.EliminarTipoDocumentoAsync(WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoRequest request) {
-            return base.Channel.EliminarTipoDocumentoAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoResponse> EliminarTipoDocumentoAsync(string Codigo) {
-            WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoRequest inValue = new WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoRequest();
-            inValue.Body = new WindowsFormsApp1.ServiceReference1.EliminarTipoDocumentoRequestBody();
-            inValue.Body.Codigo = Codigo;
-            return ((WindowsFormsApp1.ServiceReference1.WebService1Soap)(this)).EliminarTipoDocumentoAsync(inValue);
+        public System.Threading.Tasks.Task<WindowsFormsApp1.ServiceReference1.HolaSaludameResponse> HolaSaludameAsync() {
+            WindowsFormsApp1.ServiceReference1.HolaSaludameRequest inValue = new WindowsFormsApp1.ServiceReference1.HolaSaludameRequest();
+            inValue.Body = new WindowsFormsApp1.ServiceReference1.HolaSaludameRequestBody();
+            return ((WindowsFormsApp1.ServiceReference1.WebService1Soap)(this)).HolaSaludameAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        WindowsFormsApp1.ServiceReference1.ObtenerListaDocResponse WindowsFormsApp1.ServiceReference1.WebService1Soap.ObtenerListaDoc(WindowsFormsApp1.ServiceReference1.ObtenerListaDocRequest request) {
-            return base.Channel.ObtenerListaDoc(request);
+        WindowsFormsApp1.ServiceReference1.DividirNResponse WindowsFormsApp1.ServiceReference1.WebService1Soap.DividirN(WindowsFormsApp1.ServiceReference1.DividirNRequest request) {
+            return base.Channel.DividirN(request);
         }
         
-        public WindowsFormsApp1.ServiceReference1.TipoDoc[] ObtenerListaDoc() {
-            WindowsFormsApp1.ServiceReference1.ObtenerListaDocRequest inValue = new WindowsFormsApp1.ServiceReference1.ObtenerListaDocRequest();
-            inValue.Body = new WindowsFormsApp1.ServiceReference1.ObtenerListaDocRequestBody();
-            WindowsFormsApp1.ServiceReference1.ObtenerListaDocResponse retVal = ((WindowsFormsApp1.ServiceReference1.WebService1Soap)(this)).ObtenerListaDoc(inValue);
-            return retVal.Body.ObtenerListaDocResult;
+        public string DividirN(int Nro) {
+            WindowsFormsApp1.ServiceReference1.DividirNRequest inValue = new WindowsFormsApp1.ServiceReference1.DividirNRequest();
+            inValue.Body = new WindowsFormsApp1.ServiceReference1.DividirNRequestBody();
+            inValue.Body.Nro = Nro;
+            WindowsFormsApp1.ServiceReference1.DividirNResponse retVal = ((WindowsFormsApp1.ServiceReference1.WebService1Soap)(this)).DividirN(inValue);
+            return retVal.Body.DividirNResult;
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<WindowsFormsApp1.ServiceReference1.ObtenerListaDocResponse> WindowsFormsApp1.ServiceReference1.WebService1Soap.ObtenerListaDocAsync(WindowsFormsApp1.ServiceReference1.ObtenerListaDocRequest request) {
-            return base.Channel.ObtenerListaDocAsync(request);
+        System.Threading.Tasks.Task<WindowsFormsApp1.ServiceReference1.DividirNResponse> WindowsFormsApp1.ServiceReference1.WebService1Soap.DividirNAsync(WindowsFormsApp1.ServiceReference1.DividirNRequest request) {
+            return base.Channel.DividirNAsync(request);
         }
         
-        public System.Threading.Tasks.Task<WindowsFormsApp1.ServiceReference1.ObtenerListaDocResponse> ObtenerListaDocAsync() {
-            WindowsFormsApp1.ServiceReference1.ObtenerListaDocRequest inValue = new WindowsFormsApp1.ServiceReference1.ObtenerListaDocRequest();
-            inValue.Body = new WindowsFormsApp1.ServiceReference1.ObtenerListaDocRequestBody();
-            return ((WindowsFormsApp1.ServiceReference1.WebService1Soap)(this)).ObtenerListaDocAsync(inValue);
+        public System.Threading.Tasks.Task<WindowsFormsApp1.ServiceReference1.DividirNResponse> DividirNAsync(int Nro) {
+            WindowsFormsApp1.ServiceReference1.DividirNRequest inValue = new WindowsFormsApp1.ServiceReference1.DividirNRequest();
+            inValue.Body = new WindowsFormsApp1.ServiceReference1.DividirNRequestBody();
+            inValue.Body.Nro = Nro;
+            return ((WindowsFormsApp1.ServiceReference1.WebService1Soap)(this)).DividirNAsync(inValue);
         }
     }
 }
