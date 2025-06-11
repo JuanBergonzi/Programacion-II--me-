@@ -1,88 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II\\WebVeterinaria\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{FBFACD6B-C68B-4474-9721-E85B1F9CDBD2}|WebVeterinaria\\WebVeterinaria.csproj|c:\\users\\hp\\documents\\github\\programacion-ii\\webveterinaria\\webveterinaria\\logica\\duenio\\dueniologic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBFACD6B-C68B-4474-9721-E85B1F9CDBD2}|WebVeterinaria\\WebVeterinaria.csproj|solutionrelative:webveterinaria\\logica\\duenio\\dueniologic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBFACD6B-C68B-4474-9721-E85B1F9CDBD2}|WebVeterinaria\\WebVeterinaria.csproj|c:\\users\\hp\\documents\\github\\programacion-ii\\webveterinaria\\webveterinaria\\logica\\atencion\\atencionlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBFACD6B-C68B-4474-9721-E85B1F9CDBD2}|WebVeterinaria\\WebVeterinaria.csproj|solutionrelative:webveterinaria\\logica\\atencion\\atencionlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBFACD6B-C68B-4474-9721-E85B1F9CDBD2}|WebVeterinaria\\WebVeterinaria.csproj|c:\\users\\hp\\documents\\github\\programacion-ii\\webveterinaria\\webveterinaria\\datos\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBFACD6B-C68B-4474-9721-E85B1F9CDBD2}|WebVeterinaria\\WebVeterinaria.csproj|solutionrelative:webveterinaria\\datos\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FBFACD6B-C68B-4474-9721-E85B1F9CDBD2}|WebVeterinaria\\WebVeterinaria.csproj|c:\\users\\hp\\documents\\github\\programacion-ii\\webveterinaria\\webveterinaria\\logica\\animal\\animallogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FBFACD6B-C68B-4474-9721-E85B1F9CDBD2}|WebVeterinaria\\WebVeterinaria.csproj|solutionrelative:webveterinaria\\logica\\animal\\animallogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II--me-\\WebVeterinaria\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AtencionLogic.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II\\WebVeterinaria\\WebVeterinaria\\Logica\\Atencion\\AtencionLogic.cs",
-              "RelativeDocumentMoniker": "WebVeterinaria\\Logica\\Atencion\\AtencionLogic.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II\\WebVeterinaria\\WebVeterinaria\\Logica\\Atencion\\AtencionLogic.cs",
-              "RelativeToolTip": "WebVeterinaria\\Logica\\Atencion\\AtencionLogic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T23:29:45.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DuenioLogic.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II\\WebVeterinaria\\WebVeterinaria\\Logica\\Duenio\\DuenioLogic.cs",
-              "RelativeDocumentMoniker": "WebVeterinaria\\Logica\\Duenio\\DuenioLogic.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II\\WebVeterinaria\\WebVeterinaria\\Logica\\Duenio\\DuenioLogic.cs",
-              "RelativeToolTip": "WebVeterinaria\\Logica\\Duenio\\DuenioLogic.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T23:29:37.872Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TodoContext.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II\\WebVeterinaria\\WebVeterinaria\\Datos\\TodoContext.cs",
-              "RelativeDocumentMoniker": "WebVeterinaria\\Datos\\TodoContext.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II\\WebVeterinaria\\WebVeterinaria\\Datos\\TodoContext.cs",
-              "RelativeToolTip": "WebVeterinaria\\Datos\\TodoContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T23:27:25.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AnimalLogic.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II\\WebVeterinaria\\WebVeterinaria\\Logica\\Animal\\AnimalLogic.cs",
-              "RelativeDocumentMoniker": "WebVeterinaria\\Logica\\Animal\\AnimalLogic.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II\\WebVeterinaria\\WebVeterinaria\\Logica\\Animal\\AnimalLogic.cs",
-              "RelativeToolTip": "WebVeterinaria\\Logica\\Animal\\AnimalLogic.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T23:23:47.678Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

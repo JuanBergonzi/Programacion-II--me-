@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II (mio)\\WebVeterinaria\\WebVeterinaria\\WebVeterinaria.csproj": {}
+    "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II--me-\\WebVeterinaria\\WebVeterinaria\\WebVeterinaria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II (mio)\\WebVeterinaria\\WebVeterinaria\\WebVeterinaria.csproj": {
+    "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II--me-\\WebVeterinaria\\WebVeterinaria\\WebVeterinaria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II (mio)\\WebVeterinaria\\WebVeterinaria\\WebVeterinaria.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II--me-\\WebVeterinaria\\WebVeterinaria\\WebVeterinaria.csproj",
         "projectName": "WebVeterinaria",
-        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II (mio)\\WebVeterinaria\\WebVeterinaria\\WebVeterinaria.csproj",
+        "projectPath": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II--me-\\WebVeterinaria\\WebVeterinaria\\WebVeterinaria.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II (mio)\\WebVeterinaria\\WebVeterinaria\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II--me-\\WebVeterinaria\\WebVeterinaria\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -55,6 +55,10 @@
               "version": "[2.0.0-beta-01, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[9.0.4, )"
             },
