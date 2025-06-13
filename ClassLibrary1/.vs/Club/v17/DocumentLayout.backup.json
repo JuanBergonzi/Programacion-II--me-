@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|c:\\users\\hp\\documents\\github\\grupo-n-3---distribuidora\\classlibrary1\\class\\producto\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|solutionrelative:class\\producto\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|c:\\users\\hp\\documents\\github\\grupo-n-3---distribuidora\\classlibrary1\\class\\producto\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|solutionrelative:class\\producto\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|c:\\users\\hp\\documents\\github\\grupo-n-3---distribuidora\\classlibrary1\\class\\producto\\indumentaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|solutionrelative:class\\producto\\indumentaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|c:\\users\\hp\\documents\\github\\grupo-n-3---distribuidora\\classlibrary1\\class\\contracts\\igrilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|solutionrelative:class\\contracts\\igrilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\Class\\Producto\\Producto.cs",
+              "RelativeDocumentMoniker": "Class\\Producto\\Producto.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\Class\\Producto\\Producto.cs",
+              "RelativeToolTip": "Class\\Producto\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:31:48.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IGrilla.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\Class\\Contracts\\IGrilla.cs",
+              "RelativeDocumentMoniker": "Class\\Contracts\\IGrilla.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\Class\\Contracts\\IGrilla.cs",
+              "RelativeToolTip": "Class\\Contracts\\IGrilla.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:25:13.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Indumentaria.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\Class\\Producto\\Indumentaria.cs",
+              "RelativeDocumentMoniker": "Class\\Producto\\Indumentaria.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\Class\\Producto\\Indumentaria.cs",
+              "RelativeToolTip": "Class\\Producto\\Indumentaria.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:24:47.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tipo.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\Class\\Producto\\Tipo.cs",
+              "RelativeDocumentMoniker": "Class\\Producto\\Tipo.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\Class\\Producto\\Tipo.cs",
+              "RelativeToolTip": "Class\\Producto\\Tipo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:24:35.823Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
