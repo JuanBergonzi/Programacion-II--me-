@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\",
+  "WorkspaceRootPath": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II--me-\\ClassLibrary1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|c:\\users\\hp\\documents\\github\\grupo-n-3---distribuidora\\classlibrary1\\class\\producto\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|solutionrelative:class\\producto\\tipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|c:\\users\\hp\\documents\\github\\programacion-ii--me-\\classlibrary1\\class\\productoss\\productoadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|solutionrelative:class\\productoss\\productoadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|c:\\users\\hp\\documents\\github\\grupo-n-3---distribuidora\\classlibrary1\\class\\producto\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|solutionrelative:class\\producto\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|c:\\users\\hp\\documents\\github\\programacion-ii--me-\\classlibrary1\\class\\personas\\profes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|solutionrelative:class\\personas\\profes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|c:\\users\\hp\\documents\\github\\grupo-n-3---distribuidora\\classlibrary1\\class\\producto\\indumentaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|solutionrelative:class\\producto\\indumentaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF2C686C-4DBC-4690-9DF8-64DFFA3BEA6E}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\hp\\documents\\github\\programacion-ii--me-\\classlibrary1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF2C686C-4DBC-4690-9DF8-64DFFA3BEA6E}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|c:\\users\\hp\\documents\\github\\grupo-n-3---distribuidora\\classlibrary1\\class\\contracts\\igrilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F6AEBF7-F2ED-464E-B279-DE0175683D98}|Class\\Class.csproj|solutionrelative:class\\contracts\\igrilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF2C686C-4DBC-4690-9DF8-64DFFA3BEA6E}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\hp\\documents\\github\\programacion-ii--me-\\classlibrary1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FF2C686C-4DBC-4690-9DF8-64DFFA3BEA6E}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\Class\\Producto\\Producto.cs",
-              "RelativeDocumentMoniker": "Class\\Producto\\Producto.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\Class\\Producto\\Producto.cs",
-              "RelativeToolTip": "Class\\Producto\\Producto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ProductoAdapter.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II--me-\\ClassLibrary1\\Class\\Productoss\\ProductoAdapter.cs",
+              "RelativeDocumentMoniker": "Class\\Productoss\\ProductoAdapter.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II--me-\\ClassLibrary1\\Class\\Productoss\\ProductoAdapter.cs",
+              "RelativeToolTip": "Class\\Productoss\\ProductoAdapter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:31:48.663Z",
+              "WhenOpened": "2025-06-14T17:41:42.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IGrilla.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\Class\\Contracts\\IGrilla.cs",
-              "RelativeDocumentMoniker": "Class\\Contracts\\IGrilla.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\Class\\Contracts\\IGrilla.cs",
-              "RelativeToolTip": "Class\\Contracts\\IGrilla.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Profes.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II--me-\\ClassLibrary1\\Class\\Personas\\Profes.cs",
+              "RelativeDocumentMoniker": "Class\\Personas\\Profes.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II--me-\\ClassLibrary1\\Class\\Personas\\Profes.cs",
+              "RelativeToolTip": "Class\\Personas\\Profes.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:25:13.697Z",
+              "WhenOpened": "2025-06-14T17:38:30.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Indumentaria.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\Class\\Producto\\Indumentaria.cs",
-              "RelativeDocumentMoniker": "Class\\Producto\\Indumentaria.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\Class\\Producto\\Indumentaria.cs",
-              "RelativeToolTip": "Class\\Producto\\Indumentaria.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBMAAAAaAAAAAAAAAA==",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II--me-\\ClassLibrary1\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II--me-\\ClassLibrary1\\WinFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:24:47.572Z",
+              "WhenOpened": "2025-06-14T17:13:34.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Tipo.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\Class\\Producto\\Tipo.cs",
-              "RelativeDocumentMoniker": "Class\\Producto\\Tipo.cs",
-              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\Grupo-N-3---Distribuidora\\ClassLibrary1\\Class\\Producto\\Tipo.cs",
-              "RelativeToolTip": "Class\\Producto\\Tipo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II--me-\\ClassLibrary1\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\Programacion-II--me-\\ClassLibrary1\\WinFormsApp1\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "WinFormsApp1\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:24:35.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T17:12:55.561Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

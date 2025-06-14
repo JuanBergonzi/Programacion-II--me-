@@ -8,7 +8,6 @@ namespace Class
 {
     public interface ICompra
     {
-        public int CodProducto { get; set; }
-        public string Precio { get; set; }
+        double CalcularTotal();
     }
 }

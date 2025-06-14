@@ -8,7 +8,7 @@ namespace Class
 {
     public interface IGrilla
     {
-        public int IdGrilla { get; set; }
-        public string Nombre { get; set; }
+        string ObtenerNombre();
+        string ObtenerCodigo();
     }
 }

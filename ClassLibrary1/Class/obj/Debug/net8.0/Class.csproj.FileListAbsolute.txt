@@ -1,0 +1,12 @@
+C:\Users\HP\Documents\GitHub\Programacion-II--me-\ClassLibrary1\Class\obj\Debug\net8.0\Class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\GitHub\Programacion-II--me-\ClassLibrary1\Class\obj\Debug\net8.0\Class.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\GitHub\Programacion-II--me-\ClassLibrary1\Class\obj\Debug\net8.0\Class.AssemblyInfo.cs
+C:\Users\HP\Documents\GitHub\Programacion-II--me-\ClassLibrary1\Class\obj\Debug\net8.0\Class.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\Programacion-II--me-\ClassLibrary1\Class\obj\Debug\net8.0\Class.sourcelink.json
+C:\Users\HP\Documents\GitHub\Programacion-II--me-\ClassLibrary1\Class\bin\Debug\net8.0\Class.deps.json
+C:\Users\HP\Documents\GitHub\Programacion-II--me-\ClassLibrary1\Class\bin\Debug\net8.0\Class.dll
+C:\Users\HP\Documents\GitHub\Programacion-II--me-\ClassLibrary1\Class\bin\Debug\net8.0\Class.pdb
+C:\Users\HP\Documents\GitHub\Programacion-II--me-\ClassLibrary1\Class\obj\Debug\net8.0\Class.dll
+C:\Users\HP\Documents\GitHub\Programacion-II--me-\ClassLibrary1\Class\obj\Debug\net8.0\refint\Class.dll
+C:\Users\HP\Documents\GitHub\Programacion-II--me-\ClassLibrary1\Class\obj\Debug\net8.0\Class.pdb
+C:\Users\HP\Documents\GitHub\Programacion-II--me-\ClassLibrary1\Class\obj\Debug\net8.0\ref\Class.dll
